@@ -88,8 +88,6 @@
 }
 
 .card-title {
-  font-family: Inter;
-  font-variation-settings: "wdth" 715;
   font-style: var(--color-black);
   font-size: 18px;
   line-height: 100%;
@@ -123,14 +121,12 @@
 }
 
 .card-text {
-  font-variation-settings: "wdth" 410;
   font-size: 18px;
   line-height: 21px;
   padding: 25px;
 }
 
 .card-subtext {
-  font-variation-settings: "wdth" 410;
   font-size: 18px;
   line-height: 21px;
   padding-inline: 25px;
@@ -348,6 +344,17 @@ dialog::backdrop {
     font-variation-settings: "wght" 400;
     font-family: var(--font-inter);
   }
+
+  .card-title {
+  font-family: 'Inter';
+  font-variation-settings: "wdth" 715;
+}
+
+.card-text, .card-subtext  {
+  font-family: 'Inter';
+  font-variation-settings: "wdth" 410;
+}
+
 }
 
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
