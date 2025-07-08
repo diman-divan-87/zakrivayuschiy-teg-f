@@ -347,13 +347,13 @@ dialog::backdrop {
 
   .card-title {
     font-family: var(--font-inter);
-    font-variation-settings: "wdth" 715;
+    font-variation-settings: "wght" 715;
   }
 
   .card-text,
   .card-subtext {
     font-family: var(--font-inter);
-    font-variation-settings: "wdth" 410;
+    font-variation-settings: "wght" 410;
   }
 }
 
