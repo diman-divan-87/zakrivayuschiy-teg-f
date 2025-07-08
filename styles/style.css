@@ -1,4 +1,5 @@
 .page {
+  font-family: Inter;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +89,7 @@
 
 .card-title {
   font-family: Inter;
-  font-weight: 715;
+  font-variation-settings: "wdth" 715;
   font-style: var(--color-black);
   font-size: 18px;
   line-height: 100%;
@@ -122,14 +123,14 @@
 }
 
 .card-text {
-  font-weight: 410;
+  font-variation-settings: "wdth" 410;
   font-size: 18px;
   line-height: 21px;
   padding: 25px;
 }
 
 .card-subtext {
-  font-weight: 410;
+  font-variation-settings: "wdth" 410;
   font-size: 18px;
   line-height: 21px;
   padding-inline: 25px;
@@ -375,8 +376,8 @@ dialog::backdrop {
     gap: 8px;
     padding-inline-start: 18px;
     padding-inline-end: 18px;
-        padding-block-start: 15px;
-        padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-block-end: 15px;
   }
 
   .dialog {
