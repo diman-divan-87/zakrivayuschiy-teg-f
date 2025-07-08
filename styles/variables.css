@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --animation-fill-color:#FF0000;
+  --clam-width-block: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
+  /* --clam-width-block: clamp(22.813rem, 21.801vw + 17.839rem, 44rem); */
+  --clam-padding: clamp(0.625rem, 0.939vw + 0.405rem, 1.25rem);
+  --clam-title: clamp(3.0625rem, 1.7467rem + 5.614vw, 4.0625rem);
+  --clam-sub-title: clamp(0.875rem, 0.1349rem + 3.1579vw, 1.4375rem);
+  --font-inter: 'Inter', 'sans-serif';
+  --font-PressStart2P: 'PressStart2P', 'sans-serif';
+
+  --gradient-to-right: repeating-linear-gradient(
+    90deg,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
+  --gradient-to-top: repeating-linear-gradient(
+    180deg,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
+  --gradient-to-bottom: linear-gradient(
+    180deg,
+    #e7e7e7 0%,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+}
