@@ -345,8 +345,6 @@ dialog::backdrop {
 @supports (font-variation-settings: normal) {
   .page {
     font-variation-settings: "wght" 400;
-    background-size: cover;
-    background-position: center;
     font-family: var(--font-inter);
   }
 }
