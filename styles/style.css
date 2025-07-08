@@ -341,20 +341,20 @@ dialog::backdrop {
 
 @supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 410;
     font-family: var(--font-inter);
   }
 
   .card-title {
-  font-family: 'Inter';
-  font-variation-settings: "wdth" 715;
-}
+    font-family: var(--font-inter);
+    font-variation-settings: "wdth" 715;
+  }
 
-.card-text, .card-subtext  {
-  font-family: 'Inter';
-  font-variation-settings: "wdth" 410;
-}
-
+  .card-text,
+  .card-subtext {
+    font-family: var(--font-inter);
+    font-variation-settings: "wdth" 410;
+  }
 }
 
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
