@@ -231,6 +231,7 @@
 
 .save-button {
   display: block;
+  margin-inline: auto;
   padding-inline-start: 14px;
   padding-inline-end: 16px;
   padding-block-start: 12px;
@@ -298,11 +299,15 @@ dialog::backdrop {
 }
 
 .like-icon:hover .core {
-  transition: fill 0.3s linear 0s;
+  transition: fill 0.3s linear 0.03s;
   fill: var(--color-black);
 }
 
-.like-icon:active .core,
+.like-icon:active .core {
+  transition: fill 0.3s linear 0.03s;
+  fill: var(--animation-fill-color);
+}
+
 .like-icon.is-liked .core {
   transition: fill 0.3s linear 0s;
   fill: var(--animation-fill-color);
