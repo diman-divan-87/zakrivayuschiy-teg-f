@@ -230,6 +230,7 @@
 }
 
 .save-button {
+  display: block;
   padding-inline-start: 14px;
   padding-inline-end: 16px;
   padding-block-start: 12px;

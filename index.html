@@ -36,7 +36,11 @@
         </svg>
         <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button type="button" onclick="window['menu-dialog'].close()" class="btn dialog-btn">
+      <button
+        type="button"
+        onclick="window['menu-dialog'].close()"
+        class="btn dialog-btn"
+      >
         <span class="button__text">OK</span>
       </button>
     </dialog>
@@ -167,7 +171,7 @@
             src="./images/cards/moscow.jpg"
             loading="lazy"
             alt="Москва"
-            class=" filter-brightness img"
+            class="filter-brightness img"
           />
         </div>
         <p class="card-text">
@@ -209,7 +213,7 @@
               />
             </svg>
           </button>
-          <button type="button" type="button" class="card__like-button btn">
+          <button type="button" class="card__like-button btn">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -381,7 +385,7 @@
               />
             </svg>
           </button>
-          <button class="card__like-button btn">
+          <button type="button" class="card__like-button btn">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -501,19 +505,20 @@
         </div>
       </article>
     </main>
-      <button type="button"
-        class="save-button btn"
-        onclick="window['menu-dialog'].showModal()"
+    <button
+      type="button"
+      class="save-button btn"
+      onclick="window['menu-dialog'].showModal()"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="save-svg"
+        viewBox="0 0 40 40"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="save-svg"
-          viewBox="0 0 40 40"
-        >
-          <use href="./images/floppy.svg#save"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-    </div>
+        <use href="./images/floppy.svg#save"></use>
+      </svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
